@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/home/kevin/Documents/coding question/basic concept/.metadata/.plugins/org.eclipse.jdt.core
+695073915.index
+1865797976.index
+1342563568.index
+4246750711.index
+427796540.index

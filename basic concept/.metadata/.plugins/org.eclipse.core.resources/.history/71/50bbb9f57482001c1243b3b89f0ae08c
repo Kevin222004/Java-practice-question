@@ -1,0 +1,18 @@
+/*
+ Write a program to display the pattern like a pyramid using asterisk and each row contain an odd number of asterisks.  
+   *
+  ***
+ *****
+ */
+
+package PatternProblem;
+
+public class Pattern12 {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

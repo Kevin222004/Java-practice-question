@@ -1,0 +1,38 @@
+/*
+4. Write a program in C to read 10 numbers from keyboard and find their sum and average.  
+Test Data :
+Input the 10 numbers :
+Number-1 :2
+...
+Number-10 :2
+Expected Output :
+The sum of 10 no is : 55
+The Average is : 5.500000
+ */
+
+package problems;
+
+import java.util.Scanner;
+
+public class QueFour {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int[] marks = new int[10];
+
+		int sum = 0;
+		float avg;
+		System.out.println("Input the 10 numbers : ");
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Number - " + i + " : ");
+			System.out.print(marks[i] = sc.nextInt());
+			sum += marks[i];
+		}
+		avg = (float) (sum / 10.0);
+		System.out.println("The sum of 10 no is : " + sum);
+		System.out.println("The Average is : " + avg);
+
+	}
+
+}

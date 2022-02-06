@@ -1,0 +1,38 @@
+ /*
+
+1234*
+123**
+12***
+1****
+*****
+
+*/
+
+package PatternProblem;
+
+public class pattern7 {
+
+	public static void main(String[] args) {
+				patternSix(6);
+		
+	}
+	
+	static void patternSix(int n) {
+		for(int row=1;row<=n;row++) {
+		  
+			for(int s=1;s<=n-row;s++) {
+			  for(int j =1;j<=s;j++) {
+				  System.out.print(j);
+			  }
+			  System.out.println();
+		  }
+		  
+		  
+				for(int col=1;col<=row;col++) {
+					System.out.print("*");
+				}
+			System.out.println();
+			}			
+	}
+
+}
